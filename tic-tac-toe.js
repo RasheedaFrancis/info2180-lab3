@@ -19,9 +19,17 @@ document.addEventListener('DOMContentLoaded',function(){
             Move =2;
         }
 
-
+       
     
 
+    });
+    x.addEventListener('mouseover',function(){
+        x.classList.add('hover')
+
+    });
+
+    x.addEventListener('mouseout',function(){
+        x.classList.remove('hover')
     });
 
   }
